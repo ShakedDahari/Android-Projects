@@ -1,6 +1,6 @@
 # Android Projects Portfolio 📱  
 
-Welcome to my **Android Projects Portfolio**, showcasing various Android applications I developed using **Java, C#, React, and more**. Each project highlights different aspects of **mobile development, UI/UX design, and backend integration**.  
+Welcome to my **Android Projects Portfolio**, showcasing various Android applications I developed using **Java and Android Studio**. Each project highlights different aspects of **mobile development, UI/UX design, and backend integration**.  
 
 ## 📌 Projects Included  
 
