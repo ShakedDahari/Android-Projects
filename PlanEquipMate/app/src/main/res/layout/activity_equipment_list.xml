@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="10">
+
+    <TextView
+        android:id="@+id/equipListLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/equipment_list"
+        android:textSize="50sp"
+        android:textColor="@color/colorSecondary"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/checkBoxLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Select"
+            android:gravity="center"
+            android:layout_weight="1" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            app:dividerColor="@color/colorPrimary">
+        </com.google.android.material.divider.MaterialDivider>
+
+        <TextView
+            android:id="@+id/itemNameLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Item Name"
+            android:gravity="center"
+            android:layout_weight="1" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            app:dividerColor="@color/colorPrimary">
+        </com.google.android.material.divider.MaterialDivider>
+
+        <TextView
+            android:id="@+id/whoBringsLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Assigned"
+            android:gravity="center"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewEquipment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+        <EditText
+            android:id="@+id/editTextEquipmentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Item Name"
+            android:visibility="invisible"
+            android:padding="10dp"
+            android:layout_weight="2.5" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAddEquip"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/add"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/colorPrimary"
+            app:cornerRadius="50dp"
+            android:padding="10dp"
+            app:iconGravity="start"
+            app:rippleColor="@color/colorPrimary"
+            app:strokeColor="@color/colorSecondary"
+            app:strokeWidth="2dp"
+            android:layout_weight="0.5"/>
+
+    </LinearLayout>
+
+</LinearLayout>

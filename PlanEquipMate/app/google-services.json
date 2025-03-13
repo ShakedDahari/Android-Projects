@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "792093891105",
+    "firebase_url": "https://planequipmate-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "planequipmate",
+    "storage_bucket": "planequipmate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792093891105:android:e0479167d5afbbf8de2160",
+        "android_client_info": {
+          "package_name": "com.example.projectsemb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792093891105-7o2qp3rd1aseqpu9ptsvci3ddou2ik34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYzXIASRQIGhD-6iOXh5-NU_bPNzikn9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792093891105-7o2qp3rd1aseqpu9ptsvci3ddou2ik34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
