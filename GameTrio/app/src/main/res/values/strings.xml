@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Game Trio</string>
+    <string name="login_to_signup">click here to sign up</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="resetText">Reset</string>
+    <string name="remain_guess">Remain Guesses: </string>
+    <string name="guess_text">Guess</string>
+    <string name="insert_number">Insert number</string>
+    <string name="guess_number_text">Guess Number </string>
+    <string name="name">Full Name</string>
+
+</resources>
